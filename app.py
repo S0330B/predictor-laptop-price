@@ -36,7 +36,7 @@ ips = st.selectbox(
 )
 
 screen_size = st.number_input(
-    'Screen Size', min_value=1, max_value=100, step=1
+    'Screen Size', min_value=1, max_value=100, step=0.1, value=15.6
 )
 
 resolution = st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900','3840x1800','2880x1800','2560x1600','2560x1440','2304x1441'])
